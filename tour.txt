@@ -1,0 +1,18 @@
+Welcome to Omniref!
+===================
+
+Omniref is a tool that allows you to attach notes to the source code in your
+git repository. We track the *complete history* of every line of code in your
+project, and use that to keep your notes in the right place as your code 
+changes.
+
+Let's look at an example. I've attached an annotation to the next line:
+
+**This line is annotated! Click on the sticky note icon to see what's there!**
+
+When you connect your repository to Omniref, you'll be able to add annotations
+to your code in the same way -- markdown-enabled smart notes, attached to a whole
+file, or just a single line of code.
+
+To continue with the tour, click on the right-arrow button in the upper-right
+corner of this window to jump to the next version of the file.
