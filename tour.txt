@@ -6,7 +6,11 @@ git repository. We track the *complete history* of every line of code in your
 project, and use that to keep your notes in the right place as your code 
 changes.
 
-Let's look at another feature. I've made a change to the line with the note:
+Notes follow lines as they move!
+--------------------------------
+
+In this revision, I've added some lines above the line with the note. It moved down
+in the file by a few lines, but the note is still there:
 
 **This line changed, but the note stayed in place! Click on the sticky note icon to see what's there!**
 
