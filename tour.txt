@@ -6,13 +6,11 @@ git repository. We track the *complete history* of every line of code in your
 project, and use that to keep your notes in the right place as your code 
 changes.
 
-Notes follow lines as they move!
---------------------------------
+Notes disappear when their target lines are deleted!
+----------------------------------------------------
 
-In this revision, I've added some lines above the line with the note. It moved down
-in the file by a few lines, but the note is still there:
+I deleted the line that had the note. It's not shown in this file revision.
 
-**This line changed, but the note stayed in place! Click on the sticky note icon to see what's there!**
 
 Every line has a complete revision history
 ------------------------------------------
