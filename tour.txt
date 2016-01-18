@@ -14,9 +14,14 @@ in the file by a few lines, but the note is still there:
 
 **This line changed, but the note stayed in place! Click on the sticky note icon to see what's there!**
 
-When you connect your repository to Omniref, you'll be able to add annotations
-to your code in the same way -- markdown-enabled smart notes, attached to a whole
-file, or just a single line of code.
+Every line has a complete revision history
+------------------------------------------
+
+<-- Look at the gutter, to the left of the code. Every line has a git-blame style 
+    SHA value, indicating the revision that changed the line. But there's more!
+    If you click on the SHA value for any line, you'll see a complete *revision 
+    history* for each line. You can follow a line back in time to its origin,
+    and see how (and why) it changed.
 
 To continue with the tour, click on the right-arrow button in the upper-right
 corner of this window to jump to the next version of the file.
