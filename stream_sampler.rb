@@ -14,11 +14,11 @@ module StreamSampler
     return out if n.to_i == 0
     raise ArgumentError, "n must be >= 0" unless n > 0
 
-    iterable.send(itertion_method).with_index do |i, idx|
+    iterable.send(iteration_method).with_index do |i, idx|
       if idx < n
         out << i
       else
-        j = rand(idx) 
+        j = rand(idx + 1) 
         out[j] = i if j < n
       end
     end
