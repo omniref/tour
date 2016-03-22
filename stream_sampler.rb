@@ -18,6 +18,9 @@ module StreamSampler
       if idx < n
         out << i
       else
+        # the idx + 1 is necessary here because rand()
+        # returns a value from [0, idx), and we want
+        # a value in the range [0, idx]. subtle!
         j = rand(idx + 1) 
         out[j] = i if j < n
       end
